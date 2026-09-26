@@ -3,11 +3,9 @@ import type { ReactNode } from "react";
 
 export function Reveal({
   children,
-<<<<<<< HEAD
-=======
   delay = 0,
   y = 28,
->>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
+
   className,
 }: {
   children: ReactNode;
@@ -15,9 +13,8 @@ export function Reveal({
   y?: number;
   className?: string;
 }) {
-<<<<<<< HEAD
+
   return <div className={className}>{children}</div>;
-=======
   const reduced = useReducedMotion();
 
   return (
@@ -31,7 +28,6 @@ export function Reveal({
       {children}
     </motion.div>
   );
->>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
 }
 
 export function SectionHeading({

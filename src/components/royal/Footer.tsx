@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Music2 } from "lucide-react";
-import { LOGO_IMAGE, whatsappLink } from "@/lib/site-data";
+import {  whatsappLink } from "@/lib/site-data";
 import { scrollToSection } from "./Navbar";
 
 const navLinks = [
@@ -19,11 +19,8 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <img
-<<<<<<< HEAD
+
                 src="/logo.png"
-=======
-                src={LOGO_IMAGE}
->>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
                 alt="Royal Mist"
                 className="aspect-square h-[52px] w-[52px] shrink-0 overflow-hidden rounded-full object-cover ring-1 ring-gold/40"
               />

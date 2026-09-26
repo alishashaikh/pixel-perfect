@@ -1,7 +1,6 @@
 import { motion, useReducedMotion } from "motion/react";
 import { useEffect, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import { HERO_IMAGE } from "@/lib/site-data";
 import { scrollToSection } from "./Navbar";
 
 const ease = [0.16, 1, 0.3, 1] as const;
@@ -108,11 +107,10 @@ export function Hero() {
         >
           <div className="mist-orb top-1/2 left-1/2 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 animate-glow-pulse" />
           <img
-<<<<<<< HEAD
             src="/hero.png"
-=======
-            src={HERO_IMAGE}
->>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
+
+          
+
             alt="Royal Mist Golden Oud perfume bottle surrounded by golden blossoms"
             width={1024}
             height={1024}
