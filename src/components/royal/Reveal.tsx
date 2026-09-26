@@ -3,6 +3,11 @@ import type { ReactNode } from "react";
 
 export function Reveal({
   children,
+<<<<<<< HEAD
+=======
+  delay = 0,
+  y = 28,
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
   className,
 }: {
   children: ReactNode;
@@ -10,7 +15,23 @@ export function Reveal({
   y?: number;
   className?: string;
 }) {
+<<<<<<< HEAD
   return <div className={className}>{children}</div>;
+=======
+  const reduced = useReducedMotion();
+
+  return (
+    <motion.div
+      className={className}
+      initial={reduced ? { opacity: 0 } : { opacity: 0, y }}
+      whileInView={reduced ? { opacity: 1 } : { opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-80px" }}
+      transition={{ duration: 0.9, delay, ease: [0.16, 1, 0.3, 1] }}
+    >
+      {children}
+    </motion.div>
+  );
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
 }
 
 export function SectionHeading({

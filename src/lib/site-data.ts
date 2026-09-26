@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import heroimg1 from "@/assets/hero-img1.jpg";
+=======
+import heroAsset from "@/assets/royal-mist-hero.png.asset.json";
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
 import logoAsset from "@/assets/royal-mist-logo.jpg.asset.json";
 import productNoir from "@/assets/product-noir.jpg";
 import productRose from "@/assets/product-rose.jpg";
@@ -11,7 +15,11 @@ import brandStory from "@/assets/brand-story.jpg";
 
 export const WHATSAPP_NUMBER = "923XXXXXXXXX";
 
+<<<<<<< HEAD
 export const HERO_IMAGE = heroimg1;
+=======
+export const HERO_IMAGE = heroAsset.url;
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
 export const LOGO_IMAGE = logoAsset.url;
 export const BRAND_STORY_IMAGE = brandStory;
 
@@ -35,7 +43,11 @@ export const products: Product[] = [
       "Our founding scent — a warm cascade of aged oud and golden amber, finished with saffron and a breath of soft leather.",
     price: 6499,
     size: "100 ml Eau de Parfum",
+<<<<<<< HEAD
     image: heroimg1,
+=======
+    image: HERO_IMAGE,
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
     notes: { top: "Saffron • Bergamot", heart: "Oud • Rose", base: "Amber • Leather" },
   },
   {
@@ -98,13 +110,21 @@ export const products: Product[] = [
 export const collections = [
   {
     id: "her",
+<<<<<<< HEAD
     title: "FOR HER",
+=======
+    title: "HER",
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
     caption: "Florals, amber and quiet power.",
     image: collectionHer,
   },
   {
     id: "him",
+<<<<<<< HEAD
     title: "FOR HIM",
+=======
+    title: "HIM",
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
     caption: "Woods, smoke and clean depth.",
     image: collectionHim,
   },

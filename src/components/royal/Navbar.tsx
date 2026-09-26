@@ -1,7 +1,11 @@
 import { AnimatePresence, motion } from "motion/react";
 import { Menu, Search, ShoppingBag, X } from "lucide-react";
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 
+=======
+import { LOGO_IMAGE } from "@/lib/site-data";
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -51,7 +55,11 @@ export function Navbar() {
           aria-label="Royal Mist — back to top"
         >
           <img
+<<<<<<< HEAD
             src="/logo.png"
+=======
+            src={LOGO_IMAGE}
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
             alt="Royal Mist"
             className="aspect-square h-[42px] w-[42px] shrink-0 overflow-hidden rounded-full object-cover ring-1 ring-gold/40 md:h-[52px] md:w-[52px]"
           />

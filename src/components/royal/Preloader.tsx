@@ -1,6 +1,10 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
+<<<<<<< HEAD
 
+=======
+import { LOGO_IMAGE } from "@/lib/site-data";
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
 
 export function Preloader() {
   const [done, setDone] = useState(false);
@@ -26,7 +30,11 @@ export function Preloader() {
             transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1] }}
           >
             <img
+<<<<<<< HEAD
               src="/logo.png"
+=======
+              src={LOGO_IMAGE}
+>>>>>>> 2e7a0abfd80cfb4476e5d0150d9a8f22d06b373c
               alt=""
               aria-hidden="true"
               className="aspect-square h-16 w-16 rounded-full object-cover"
